@@ -1,0 +1,21 @@
+/*
+ QBImagePicker.strings
+ QBImagePicker
+ 
+ Created by Katsuma Tanaka on 2015/04/03.
+ Copyright (c) 2015 Katsuma Tanaka. All rights reserved.
+ */
+
+"albums.title" = "Фотографии";
+
+"assets.footer.photo" = "%ld Фото";
+"assets.footer.photos" = "%ld Фотографии";
+"assets.footer.video" = "%ld Видео";
+"assets.footer.videos" = "%ld Видеозаписей";
+"assets.footer.photo-and-video" = "%ld Фото, %ld Видео";
+"assets.footer.photos-and-video" = "%ld Фотографии, %ld Видео";
+"assets.footer.photo-and-videos" = "%ld Фото, %ld Видеозаписей";
+"assets.footer.photos-and-videos" = "%ld Фотографии, %ld Видеозаписей";
+
+"assets.toolbar.item-selected" = "%ld выбрано";
+"assets.toolbar.items-selected" = "%ld выбрано";

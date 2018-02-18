@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		52556EDB2039B82F0045D7DC /* QBImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52556EDD2039B82F0045D7DC /* QBImagePicker.storyboard */; };
 		790A850F1AE7D4D9008E2A80 /* QBSlomoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 790A850D1AE7D4D9008E2A80 /* QBSlomoIconView.h */; };
 		790A85101AE7D4D9008E2A80 /* QBSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 790A850E1AE7D4D9008E2A80 /* QBSlomoIconView.m */; };
 		AA3AD06F1ACF9A3A00BF523E /* QBVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3AD06D1ACF9A3A00BF523E /* QBVideoIconView.h */; };
@@ -36,7 +37,6 @@
 		AABBF0911ACEDDFF003188A3 /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBF08F1ACEDDFF003188A3 /* QBCheckmarkView.m */; };
 		AAF1CA1A1ACE5467005F6295 /* QBAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF1CA181ACE5467005F6295 /* QBAlbumCell.h */; };
 		AAF1CA1B1ACE5467005F6295 /* QBAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF1CA191ACE5467005F6295 /* QBAlbumCell.m */; };
-		AAF1CA231ACE5598005F6295 /* QBImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF1CA221ACE5598005F6295 /* QBImagePicker.storyboard */; };
 		AAF1CA2F1ACE6E46005F6295 /* QBAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF1CA2D1ACE6E46005F6295 /* QBAssetsViewController.h */; };
 		AAF1CA301ACE6E46005F6295 /* QBAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF1CA2E1ACE6E46005F6295 /* QBAssetsViewController.m */; };
 		AAF1CA331ACE6FB5005F6295 /* QBAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF1CA311ACE6FB5005F6295 /* QBAssetCell.h */; };
@@ -46,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		07A50A481B331A840010E048 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/QBImagePicker.strings; sourceTree = "<group>"; };
+		52556EDA2039B7FD0045D7DC /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/QBImagePicker.strings"; sourceTree = "<group>"; };
+		52556EDF2039B8AC0045D7DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/QBImagePicker.storyboard; sourceTree = "<group>"; };
 		74BB93661B2CE91A0044EB60 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/QBImagePicker.strings; sourceTree = "<group>"; };
 		790A850D1AE7D4D9008E2A80 /* QBSlomoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBSlomoIconView.h; sourceTree = "<group>"; };
 		790A850E1AE7D4D9008E2A80 /* QBSlomoIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBSlomoIconView.m; sourceTree = "<group>"; };
@@ -64,7 +66,6 @@
 		AABBF08F1ACEDDFF003188A3 /* QBCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBCheckmarkView.m; sourceTree = "<group>"; };
 		AAF1CA181ACE5467005F6295 /* QBAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAlbumCell.h; sourceTree = "<group>"; };
 		AAF1CA191ACE5467005F6295 /* QBAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAlbumCell.m; sourceTree = "<group>"; };
-		AAF1CA221ACE5598005F6295 /* QBImagePicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QBImagePicker.storyboard; sourceTree = "<group>"; };
 		AAF1CA2D1ACE6E46005F6295 /* QBAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsViewController.h; sourceTree = "<group>"; };
 		AAF1CA2E1ACE6E46005F6295 /* QBAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsViewController.m; sourceTree = "<group>"; };
 		AAF1CA311ACE6FB5005F6295 /* QBAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetCell.h; sourceTree = "<group>"; };
@@ -157,7 +158,7 @@
 		AAF1CA241ACE5665005F6295 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AAF1CA221ACE5598005F6295 /* QBImagePicker.storyboard */,
+				52556EDD2039B82F0045D7DC /* QBImagePicker.storyboard */,
 				AAF1CA3F1ACE8918005F6295 /* QBImagePicker.strings */,
 			);
 			name = Resources;
@@ -234,6 +235,7 @@
 				es,
 				de,
 				pl,
+				"ru-RU",
 			);
 			mainGroup = AAA8FDF91ACDA079002A9710;
 			productRefGroup = AAA8FE041ACDA079002A9710 /* Products */;
@@ -252,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E521B0A21B01D9300079461F /* QBImagePicker.strings in Resources */,
-				AAF1CA231ACE5598005F6295 /* QBImagePicker.storyboard in Resources */,
+				52556EDB2039B82F0045D7DC /* QBImagePicker.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +296,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		52556EDD2039B82F0045D7DC /* QBImagePicker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52556EDF2039B8AC0045D7DC /* en */,
+			);
+			name = QBImagePicker.storyboard;
+			sourceTree = "<group>";
+		};
 		AAF1CA3F1ACE8918005F6295 /* QBImagePicker.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -303,6 +313,7 @@
 				07A50A481B331A840010E048 /* es */,
 				74BB93661B2CE91A0044EB60 /* de */,
 				F167DB441C086AB90045AD5B /* pl */,
+				52556EDA2039B7FD0045D7DC /* ru-RU */,
 			);
 			name = QBImagePicker.strings;
 			sourceTree = "<group>";

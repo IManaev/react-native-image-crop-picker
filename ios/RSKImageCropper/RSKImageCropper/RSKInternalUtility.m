@@ -22,7 +22,7 @@ NSString * RSKLocalizedString(NSString *key, NSString *comment)
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         NSBundle *bundleForClass = [NSBundle bundleForClass:[self class]];
-        NSString *stringsBundlePath = [bundleForClass pathForResource:@"RSKImageCropperStrings" ofType:@"bundle"];
+        NSString *stringsBundlePath = [bundleForClass pathForResource:@"ru" ofType:@"lproj"];
         bundle = [NSBundle bundleWithPath:stringsBundlePath] ?: bundleForClass;
     });
     
