@@ -10,6 +10,15 @@
 
 NSString * RSKLocalizedString(NSString *key, NSString *comment)
 {
+    if(key == @"Move and Scale"){
+        return @"Cдвиг и масштаб";
+    }
+    if(key == @"Cancel"){
+        return @"Отменить";
+    }
+    if(key == @"Choose"){
+        return @"Выбрать";
+    }
     return [[[RSKInternalUtility class] bundleForStrings] localizedStringForKey:key value:key table:@"RSKImageCropper"];
 }
 

@@ -48,6 +48,7 @@
 		07A50A481B331A840010E048 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/QBImagePicker.strings; sourceTree = "<group>"; };
 		52556EDA2039B7FD0045D7DC /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/QBImagePicker.strings"; sourceTree = "<group>"; };
 		52556EDF2039B8AC0045D7DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/QBImagePicker.storyboard; sourceTree = "<group>"; };
+		5280E25A2039C0BA00C9BCA8 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/QBImagePicker.strings"; sourceTree = "<group>"; };
 		74BB93661B2CE91A0044EB60 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/QBImagePicker.strings; sourceTree = "<group>"; };
 		790A850D1AE7D4D9008E2A80 /* QBSlomoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBSlomoIconView.h; sourceTree = "<group>"; };
 		790A850E1AE7D4D9008E2A80 /* QBSlomoIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBSlomoIconView.m; sourceTree = "<group>"; };
@@ -300,6 +301,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				52556EDF2039B8AC0045D7DC /* en */,
+				5280E25A2039C0BA00C9BCA8 /* ru-RU */,
 			);
 			name = QBImagePicker.storyboard;
 			sourceTree = "<group>";
